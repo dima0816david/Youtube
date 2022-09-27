@@ -1,0 +1,155 @@
+.intro {
+   width: 100%;
+   height: 100vh;
+   // margin-top: 50px;
+   
+}
+
+.main--box {
+   width: 1620px;
+   display: flex;
+   
+   &_menu {
+      width: 240px;
+      height: 100vh;
+      
+      
+      &-list {
+         padding-left: 20px;
+         
+         
+         &-li {
+            list-style-type: none;
+            align-items: center;
+            padding-top: 30px;
+            
+            &_link {
+               text-decoration: none;
+               padding-right: 15px;
+               font-weight: 400;
+               font-size: 16px;
+               line-height: 20px;       
+               color: #898989;
+               
+               
+               &-img {
+                  padding-right: 15px;
+                  
+               }
+            }
+         }
+      }
+   }
+}
+
+.sub {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 23px;
+   color: #000000;
+}
+
+.main--box_menu-list-li_link-first {
+   text-decoration: none;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   color: #FF0000;
+}
+
+.main--box_videos {
+   margin: 30px 0 0 60px;
+   width: 100%;
+}
+
+.dollie {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   
+   &-text {
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 33px;
+      color: #19202C;
+      padding-left: 20px;
+      padding-right: 1000px;
+   }
+   
+}
+
+.first {
+   width: 100%;
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 40px;
+   
+   &--text {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      color: #19202C;
+      margin: 0;
+
+   }  
+   
+   .first--text_mini {
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16px;
+      color: #C2C2C2;
+      margin: 0;
+   }
+}
+
+.v-player {
+   width: 250px;
+   height: 150px;
+   border-radius: 20px;
+}
+
+.recommended {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   
+   &-text {
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 33px;
+      color: #19202C;
+      padding-right: 1020px;
+   }
+   
+}
+
+.second {
+   width: 100%;
+   margin-top: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 40px;
+   
+   &--text {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      color: #19202C;
+      margin: 0;
+
+      &_mini {
+         font-weight: 400;
+         font-size: 13px;
+         line-height: 16px;
+         color: #C2C2C2;
+         margin: 0;
+      }
+   }  
+}
+
+.video-player {
+   border-radius: 20px;
+}

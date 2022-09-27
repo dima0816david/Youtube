@@ -1,0 +1,44 @@
+.navbar {
+   width: 1620px;
+   display: flex;
+   align-items: center;
+}
+
+.logo {
+   display: flex;
+   margin: 20px;
+   text-decoration: none;
+   
+   &-img {
+      padding: 0 4px 0 28px;
+   }
+}
+
+
+.input {
+   margin-left: 90px;
+   padding-left: 20px;
+   width: 850px;
+   height: 40px;
+   border: 2px #EBEBEB solid;
+   background: #EBEBEB;
+   border-radius: 22px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   color: black;
+   mix-blend-mode: normal;
+   opacity: 0.4;
+}
+
+.nav__logos {
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+
+   &--img  {
+      padding-left: 30px;
+   }
+
+}
